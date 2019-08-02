@@ -1,0 +1,30 @@
+*{
+  margin: 0;
+  padding:0;
+  list-style: none;
+  box-sizing: border-box;
+}
+html,body,#root,.wrapper{
+  width:100%;
+  height: 100%;
+}
+.wrapper{
+  overflow: hidden;
+}
+aside{
+  width:20px;
+  position: fixed;
+  right:0;
+  top:10%;
+}
+h3{
+  width:100%;
+  height: 30px;
+  background:#ccc;
+  line-height: 20px;
+}
+ol>li{
+  height: 30px;
+  line-height: 30px;
+  background: #eee;
+}
